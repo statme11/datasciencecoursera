@@ -1,15 +1,6 @@
 ---
-title: "Hello World"
-author: "S.Webster"
-date: "5/11/2020"
-output: pdf_document
+output:
+  pdf_document: default
+  html_document: default
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## This is a markdown file
-
-This is an R Markdown document.
-
+## This is an RMarkdown document
